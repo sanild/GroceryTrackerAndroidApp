@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <!-- Set the color of the status bar -->
+        <item name="android:statusBarColor">#5491FC</item>
+
+        <!-- Set the color of the navigation bar -->
+        <item name="android:navigationBarColor">#0047B0</item>
+
+    </style>
+
+</resources>
