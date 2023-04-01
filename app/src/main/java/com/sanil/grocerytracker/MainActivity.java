@@ -35,14 +35,10 @@ public class MainActivity extends AppCompatActivity {
                 EditText edittext_password = findViewById(R.id.editTextTextPassword);
                 String password = edittext_password.getText().toString();
 
-//                if (email.equals("sanildhamija@gmail.com") && password.equals("nahibataunga")){
-//                    Intent intent = new Intent(MainActivity.this, groceryList.class);
-//                    startActivity(intent);
-//                }
-                Intent intent = new Intent(MainActivity.this, groceryList.class);
-                 startActivity(intent);
-
-
+                if (email.equals("sanildhamija@gmail.com") && password.equals("nahibataunga")){
+                    Intent intent = new Intent(MainActivity.this, groceryList.class);
+                    startActivity(intent);
+                }
 
             }
         });
